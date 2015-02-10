@@ -1,16 +1,16 @@
 public class Sort {
 
 	public static void main(String[] args) {
-		int tal[] = new int[10];
-		int searched = 22;
+		int tal[] = new int[20];
+		int searched = 40;
 		
 		for (int i = 0; i < tal.length; i++) {
-			tal[i] = (int) (Math.random()*100);
+			tal[i] = (int) (Math.random()*50);
 		}
 		printList("Slumpad lista", tal);
 		System.out.println( "         Position för " + searched + " är " + search( searched, tal ) );
-//		bubbleSort(tal);
-		insertionSort(tal);
+		bubbleSort(tal);
+//		insertionSort(tal);
 		printList("Sorterad lista", tal);
 		System.out.println( "Sorterad position för " + searched + " är " + search( searched, tal ) );
 	}
