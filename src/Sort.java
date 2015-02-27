@@ -14,11 +14,11 @@ public class Sort {
 		System.out.println( "Du skrev talet: " + ada );
 		
 		printList("Slumpad lista", tal);
-		System.out.println( "         Position för " + searched + " är " + search( searched, tal ) );
+//		System.out.println( "         Position för " + searched + " är " + search( searched, tal ) );
 		bubbleSort(tal);
 //		insertionSort(tal);
 		printList("Sorterad lista", tal);
-		System.out.println( "Sorterad position för " + searched + " är " + search( searched, tal ) );
+//		System.out.println( "Sorterad position för " + searched + " är " + search( searched, tal ) );
 	}
 	
 	private static void printList( String head, int[] list ){
