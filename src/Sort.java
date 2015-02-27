@@ -56,6 +56,8 @@ public class Sort {
 		}
 	}
 	
+	/* test sortering */
+	
 	/* Returns postition or -1 if not found */
 	private static int search( int s, int[] list ) {
 		for ( int i = 0; i < list.length; i++ ) {
