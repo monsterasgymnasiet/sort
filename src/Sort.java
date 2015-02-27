@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Sortering
+ * @author lane01
+ *
+ */
 public class Sort {
 	public static void main(String[] args) {
 		int tal[] = new int[20];
