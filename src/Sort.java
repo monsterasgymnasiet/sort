@@ -1,5 +1,6 @@
-public class Sort {
+import java.util.Scanner;
 
+public class Sort {
 	public static void main(String[] args) {
 		int tal[] = new int[20];
 		int searched = 40;
@@ -7,6 +8,11 @@ public class Sort {
 		for (int i = 0; i < tal.length; i++) {
 			tal[i] = (int) (Math.random()*50);
 		}
+		System.out.println( "Mata in ett tal: " );
+		Scanner sc = new Scanner( System.in );
+		int ada = sc.nextInt();
+		System.out.println( "Du skrev talet: " + ada );
+		
 		printList("Slumpad lista", tal);
 		System.out.println( "         Position för " + searched + " är " + search( searched, tal ) );
 		bubbleSort(tal);
@@ -58,5 +64,10 @@ public class Sort {
 			}
 		}
 		return -1;
+	}
+	
+	private static void annat() {
+		String namn = "Ola";
+		namn.compareTo(namn);
 	}
 }
