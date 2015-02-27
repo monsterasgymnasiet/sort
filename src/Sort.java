@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Sortering
+ * Sortering för hastighet
  * @author lane01
  *
  */
